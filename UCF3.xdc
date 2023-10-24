@@ -268,6 +268,7 @@ set_property -dict { PACKAGE_PIN J15   IOSTANDARD LVCMOSS33 } [get_ports { RS485
 
 
 
+set_property BITSTREAM.CONFIG.SPI_BUSWIDTH 4 [current_design]
 
 
 
